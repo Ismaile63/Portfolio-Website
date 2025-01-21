@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+}
+
+html{
+    background-color: #191817;
+    overflow: hidden;
+    font-family: 'Montserrat', 'Sans-serif';
+}
+
+body {
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    border-left: solid #fff9e7 0.32em;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    bottom: 20%;
+    position: absolute;
+    z-index: -1;
+}
+
+.right {
+    display: flex;
+    border-right: solid #fff9e7 0.32em;
+    width: 80%;
+    height: 85%;
+    right: 10%;
+    top: 15%;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    color: #fff9e7;
+    position: absolute;
+    width: fit-content;
+    left: 86vw;
+    border: 0;
+    padding: 0.75em 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nav ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    row-gap: .75em;
+}
+
+.nav ol li .text {
+    transition-property: opacity;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.nav ol li .text:hover {
+    opacity: .25;
+}
+
+.text {
+    text-decoration: none;
+    color: #fff9e7;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    width: 79.4vw;
+    left: 10.2%;
+}
+
+.t_box {
+    display: flex;
+    position: absolute;
+    height: 24.6vh;
+    width: 79.4vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1.title {
+    display: flex;
+    position: relative;
+    color: #fff9e7;
+    width: fit-content;
+    height: fit-content;
+    bottom: 15%;
+    font-size: 3em;
+    letter-spacing: .3em;
+    font-weight: 500;
+}
+
+.line {
+    display: flex;
+    position: relative;
+    border: solid #fff9e7 1pt;
+    width: 70%;
+}
+
+.ut {
+    display: flex;
+    position: relative;
+    top: 15%;
+    width: fit-content;
+    height: fit-content;
+    color: #fff9e7;
+    text-align: center;
+    font-weight: 300;
+}
+
+.projects {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 24.6vh;
+    height: 75.4vh;
+    width: 79.4vw;
+    padding: 3rem 4rem;
+}
+
+.pr_1 {
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    justify-content: flex-start;
+    max-width: 32vw;
+    max-height: 25vh;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    opacity: 90%;
+    cursor: pointer;
+    z-index: 1;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.pr_1:hover {
+    background-color: rgba(240, 240, 240, 20%);
+    color: rgba(255, 249, 231, 80%);
+    border: solid rgb(240, 240, 240) .1rem;
+    opacity: 100%;
+    .ski {
+        background-color: #33312e;
+        color: rgba(255, 249, 231, 80%);
+    }
+}
+
+.img {
+    display: flex;
+    position: relative;
+    height: 6rem;
+    width: 9rem;
+    max-height: fit-content;
+    max-width: fit-content;
+    border: solid rgb(240, 240, 240) .1rem;
+    border-radius: .3rem;
+    margin-right: .8rem;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.txt {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    height: fit-content;
+    width: fit-content;
+    max-height: inherit;
+    max-width: inherit;
+    flex-direction: column;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.pr_tit {
+    color: #fff9e7;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.pr_sum {
+    color: #fff9e7;
+    font-weight: 400;
+    font-size: .85rem;
+}
+
+.skills {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.ski {
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    margin-right: .35rem;
+    font-weight: 650;
+    background-color: #fff9e7;
+    color: #33312e;
+    transition-duration: .15s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
