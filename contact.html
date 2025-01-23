@@ -48,7 +48,16 @@
         </section>
         <section class="form">
             <form action="https://formsubmit.co/11a9023d02f1c28aa81d203293a8aaf6" method="POST">
+                <!-- HoneyPot -->
+                <input type="text" name="_honey" style="display: none;"/>
+
+                <!-- Captcha -->
                 <input type="hidden" name="_captcha" value="false"/>
+
+                <!-- Success -->
+                <input type="hidden" name="_next" value="./index.html"/>
+
+
                 <label for="name" class="f_lab">Name</label>
                 <br>
                 <input class="f_box" type="text" name="Name" placeholder="Enter Your Name" id="name" required/>
