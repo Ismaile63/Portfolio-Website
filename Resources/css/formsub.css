@@ -8,20 +8,30 @@ html{
     font-family: 'Montserrat', 'Sans-serif';
 }
 
-body {
-    overflow: hidden;
+.text {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
+    position: relative;
     color: #fff9e7;
-    font-weight: 600;
-    font-size: 4rem;
+    font-weight: 400;
+    font-size: 4.5rem;
+    top: 5vh;
+    letter-spacing: .3rem;
 }
 
 p {
+    position: relative;
     color: #fff9e7;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    top: 15vh;
 }
 
 a {
