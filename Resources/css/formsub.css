@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+html{
+    background-color: #191817;
+    overflow: hidden;
+    font-family: 'Montserrat', 'Sans-serif';
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff9e7;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+p {
+    color: #fff9e7;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff9e7;
+    transition-property: opacity;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: .25;
+}
