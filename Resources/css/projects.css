@@ -160,6 +160,10 @@ h1.title {
     }
 }
 
+.p_link {
+    text-decoration: none;
+}
+
 .img {
     display: flex;
     position: relative;
