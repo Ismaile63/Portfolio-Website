@@ -217,7 +217,7 @@ h2.skill {
     margin-bottom: .8rem;
     margin-right: .8rem;
     font-size: 1rem;
-    background-color: rgba(255, 249, 231, 80%);
+    background-color: rgba(255, 249, 231, 95%);
     border-radius: 5px;
     font-weight: 600;
     color: #33312e;
@@ -252,4 +252,33 @@ h2.skill {
 .rrr {
     font-size: 1.5rem;
     text-align: center;
+}
+
+.social {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: .35rem 0;
+    right: 78.05vw;
+    top: 40vh;
+}
+
+.soc {
+    position: relative;
+    background-color: #fff9e7;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: .45rem;
+    padding: .2rem;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    cursor: pointer;
+}
+
+.soc:hover {
+    opacity: 30%;
 }

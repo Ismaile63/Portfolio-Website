@@ -163,3 +163,32 @@ h1.title {
     width: 7rem;
     cursor: pointer;
 }
+
+.social {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: .35rem 0;
+    top: 80vh;
+    right: 67.75vw;
+}
+
+.soc {
+    position: relative;
+    background-color: #fff9e7;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: .45rem;
+    padding: .2rem;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    cursor: pointer;
+}
+
+.soc:hover {
+    opacity: 30%;
+}

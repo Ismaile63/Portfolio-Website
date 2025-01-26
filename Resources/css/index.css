@@ -8,10 +8,6 @@ html{
     font-family: 'Montserrat', 'Sans-serif';
 }
 
-body {
-    overflow: hidden;
-}
-
 .left {
     display: flex;
     border-left: solid #fff9e7 0.32em;
@@ -165,18 +161,47 @@ body {
     position: relative;
     align-items: center;
     width: fit-content;
-    border: solid #fff9e7 1pt;
-    border-radius: 0.5em;
     padding: 1.5em;
     text-decoration: none;
-    z-index: 5;
     bottom: 45vh;
     right: 5.4vw;
-    transition-property: opacity;
-    transition-duration: .4s;
+    transition-duration: .15s;
     transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    cursor: pointer;
+    border: solid #191817 .1rem;
+    border-radius: .5em;
 }
 
 .btn:hover {
-    opacity: .25;
+    border: solid rgb(240, 240, 240) .1rem;
+    background-color: rgba(255, 249, 231, 20%);
+}
+
+.social {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: .35rem 0;
+    bottom: 34.8vh;
+    left: 8.8vw;
+}
+
+.soc {
+    position: relative;
+    background-color: #fff9e7;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: .45rem;
+    padding: .2rem;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    cursor: pointer;
+}
+
+.soc:hover {
+    opacity: 30%;
 }

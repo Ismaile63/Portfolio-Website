@@ -140,6 +140,7 @@ h1.title {
     justify-content: flex-start;
     max-width: 32vw;
     max-height: 25vh;
+    border: solid #191817 .1rem;
     border-radius: .5rem;
     padding: 1rem 2rem;
     opacity: 90%;
@@ -223,4 +224,33 @@ h1.title {
     color: #33312e;
     transition-duration: .15s;
     transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.social {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: .35rem 0;
+    right: 4.77vw;
+    top: 33.45vh;
+}
+
+.soc {
+    position: relative;
+    background-color: #fff9e7;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: .45rem;
+    padding: .2rem;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    cursor: pointer;
+}
+
+.soc:hover {
+    opacity: 30%;
 }
