@@ -8,12 +8,7 @@ html{
     font-family: 'Montserrat', 'Sans-serif';
 }
 
-body {
-    overflow: hidden;
-}
-
 .left {
-    display: flex;
     border-left: solid #fff9e7 0.32em;
     width: 80%;
     height: 80%;
@@ -24,7 +19,6 @@ body {
 }
 
 .right {
-    display: flex;
     border-right: solid #fff9e7 0.32em;
     width: 80%;
     height: 85%;
@@ -281,4 +275,12 @@ h2.skill {
 
 .soc:hover {
     opacity: 30%;
+}
+
+/* Responsive Site */
+
+@media only screen and (max width: 600px) {
+
+    font-size: 0.2rem;
+
 }
